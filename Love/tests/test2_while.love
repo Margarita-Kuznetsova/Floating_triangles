@@ -1,0 +1,23 @@
+Func main
+<
+    a -> 20
+    unless a not 10 
+    <
+        a -> a minus 2
+    >
+    output a # Вывод 20-2*5=10
+    b -> 100
+    unless b more 10
+    <
+        b -> b div a 
+    >
+    output b # Вывод 100/10=10
+    c -> b minus a plus 2
+    output c # Вывод 10-10+2=2
+    unless c less 17
+    <
+        c -> c x c
+    >
+    output c # Вывод 2*2*4*16=256
+    ret 0
+>

@@ -1,0 +1,6 @@
+Func save_var -> first, width, length 
+<
+    tmp1 -> length minus 2 x first minus 1
+    tmp2 ->  first div width x tmp1
+    ret tmp2 plus first
+>

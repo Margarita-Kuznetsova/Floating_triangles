@@ -1,0 +1,19 @@
+Func foo -> z, y 
+< 
+when z more y
+    <
+        z -> z plus 1
+    >   
+unless y not 2 
+    <
+        y -> y minus 1
+    >   
+output z
+output y
+ret 0
+> 
+Func main
+<
+tmp -> [foo 6 4]
+ret 0
+>

@@ -1,0 +1,19 @@
+Func love -> g, h 
+<
+    when g more h
+    <
+        g -> (g x 3) minus 1
+    >   
+    unless h more 2 
+    <
+        h -> h div 2
+    >   
+    output g
+    output h
+    ret g
+>
+Func main
+<
+    tmp1 -> [love 160 140]
+    ret 0
+>

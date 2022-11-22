@@ -1,0 +1,23 @@
+Func main
+<
+    z -> 20
+    when z more 10
+    <
+        z -> z minus 1
+    >
+    output z # Вывод 20-1=19
+    y -> 10
+    when y not 5
+    <
+        y -> z x 3 
+    >
+    output y  # Вывод 19*3=57
+    a -> z plus y
+    output a  # Вывод 19+57=76
+    when a less 150
+    <
+        a -> a div 3
+    >
+    output a  # Вывод 76/3=25
+    ret 0
+>
