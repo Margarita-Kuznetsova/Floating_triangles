@@ -1,14 +1,6 @@
 ; ModuleID = 'love.module'
 source_filename = "love.module"
 
-@.int_string = internal global [4 x i8] c"%d\0A\00", align 1
-
-declare i32 @printf(...)
-
-define void @__print_int(i32 %0) {
-  %2 = call i32 (...) @printf([4 x i8]* @.int_string, i32 %0)
-  ret void
-}
 
 define i32 @save_var(i32 %0, i32 %1, i32 %2) {
   %first = alloca i32, align 4
